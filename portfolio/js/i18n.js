@@ -82,6 +82,10 @@ const translations = {
     "projects.p3.title": "UMKMKeuanganApp",
     "projects.p3.desc":  "A mobile financial management app for Terasi Pak Kempung MSME in Suradadi, built with React Native and SQLite for local data storage.",
 
+    "projects.p4.type":  "Personal Project · Web App",
+"projects.p4.title": "Life Dashboard",
+"projects.p4.desc":  "A personal productivity dashboard featuring a Pomodoro timer, daily task management, and customizable quick links to help users organize their daily activities.",
+
     // Modal
     "modal.features": "Key Features",
 
@@ -91,19 +95,19 @@ const translations = {
     "cert.view":  "View",
 
     "cert.c1.name": "CCNA: Enterprise Networking, Security, and Automation",
-    "cert.c1.date": "2024",
+    "cert.c1.date": "2025",
     "cert.c2.name": "CCNAv7: Switching, Routing, and Wireless Essentials",
     "cert.c2.date": "2024",
     "cert.c3.name": "CCNAv7: Introduction to Networks",
-    "cert.c3.date": "2023",
+    "cert.c3.date": "2024",
     "cert.c4.name": "Oracle Database Design",
-    "cert.c4.date": "2023",
+    "cert.c4.date": "2024",
     "cert.c5.name": "Oracle Database Foundations",
-    "cert.c5.date": "2023",
+    "cert.c5.date": "2024",
     "cert.c6.name": "Introduction to IoT and Digital Transformation",
-    "cert.c6.date": "2023",
+    "cert.c6.date": "2024",
     "cert.c7.name": "Network Security",
-    "cert.c7.date": "2023",
+    "cert.c7.date": "2026",
     "cert.c8.name": "IT Essentials: PC Hardware and Software",
     "cert.c8.date": "2022",
 
@@ -193,7 +197,11 @@ const translations = {
     "projects.p3.type":  "Pengabdian Masyarakat · Mobile App",
     "projects.p3.title": "UMKMKeuanganApp",
     "projects.p3.desc":  "Aplikasi mobile pencatatan keuangan untuk UMKM Terasi Pak Kempung di Desa Suradadi, dibangun dengan React Native dan SQLite.",
-
+    
+    "projects.p4.type":  "Proyek Personal · Web App",
+    "projects.p4.title": "Life Dashboard",
+    "projects.p4.desc":  "Dashboard produktivitas pribadi yang dilengkapi Pomodoro Timer, pengelolaan daftar tugas harian, dan Quick Links untuk membantu pengguna mengatur aktivitas sehari-hari.",
+    
     // Modal
     "modal.features": "Fitur Utama",
 
@@ -203,19 +211,19 @@ const translations = {
     "cert.view":  "Lihat",
 
     "cert.c1.name": "CCNA: Enterprise Networking, Security, and Automation",
-    "cert.c1.date": "2024",
+    "cert.c1.date": "2025",
     "cert.c2.name": "CCNAv7: Switching, Routing, and Wireless Essentials",
     "cert.c2.date": "2024",
     "cert.c3.name": "CCNAv7: Introduction to Networks",
-    "cert.c3.date": "2023",
+    "cert.c3.date": "2024",
     "cert.c4.name": "Oracle Database Design",
-    "cert.c4.date": "2023",
+    "cert.c4.date": "2024",
     "cert.c5.name": "Oracle Database Foundations",
-    "cert.c5.date": "2023",
+    "cert.c5.date": "2024",
     "cert.c6.name": "Introduction to IoT and Digital Transformation",
-    "cert.c6.date": "2023",
+    "cert.c6.date": "2024",
     "cert.c7.name": "Network Security",
-    "cert.c7.date": "2023",
+    "cert.c7.date": "2026",
     "cert.c8.name": "IT Essentials: PC Hardware and Software",
     "cert.c8.date": "2022",
 
@@ -281,7 +289,26 @@ const projectData = {
       ],
       tags: ["React Native", "JavaScript", "SQLite", "Expo"],
       github: "https://github.com/dhanustr/UMKMKeuanganApp"  // Ganti dengan link GitHub project: https://github.com/dhanustr/...
-    }
+    
+    },
+    
+  {
+  icon: "fa-clock",
+  image: "assets/project-todo.jpg",
+  type: "Personal Project · Web App",
+  title: "Life Dashboard",
+  desc: "A personal productivity dashboard designed to help users organize daily activities and manage their time efficiently. The application combines a Pomodoro timer, daily task management, and customizable quick links in one dashboard.",
+  features: [
+    "Pomodoro timer with adjustable focus duration",
+    "Daily task management",
+    "Customizable quick links for frequently accessed websites",
+    "Real-time digital clock and personalized greeting",
+    "Dark and light mode"
+  ],
+  tags: ["JavaScript", "HTML", "CSS"],
+  github: "https://github.com/dhanustr/CodingCamp-31September26-DhanuSatria"
+  }
+
   ],
   id: [
     {
@@ -332,8 +359,26 @@ const projectData = {
         "Dibangun dengan React Native dan Expo untuk lintas platform"
       ],
       tags: ["React Native", "JavaScript", "SQLite", "Expo"],
-      github: "#"
-    }
+      github: "ttps://github.com/dhanustr/UMKMKeuanganApp"
+    },
+    
+{
+  icon: "fa-clock",
+  image: "assets/project-todo.jpg",
+  type: "Proyek Personal · Web App",
+  title: "Life Dashboard",
+  desc: "Dashboard produktivitas pribadi yang dirancang untuk membantu pengguna mengatur aktivitas harian dan mengelola waktu secara efisien. Aplikasi ini menggabungkan Pomodoro Timer, pengelolaan daftar tugas harian, dan Quick Links dalam satu dashboard.",
+  features: [
+    "Pomodoro Timer dengan durasi fokus yang dapat diatur",
+    "Pengelolaan daftar tugas harian",
+    "Quick Links untuk menyimpan website yang sering diakses",
+    "Jam digital dan sapaan personal secara real-time",
+    "Dark mode dan light mode"
+  ],
+  tags: ["JavaScript", "HTML", "CSS"],
+  github: "https://github.com/dhanustr/CodingCamp-31September26-DhanuSatria"
+}
+
   ]
 };
 
