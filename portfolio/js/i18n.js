@@ -294,7 +294,7 @@ const projectData = {
     
   {
   icon: "fa-clock",
-  image: "assets/project-todo.jpg",
+  image: "assets/Project-todo.jpg",
   type: "Personal Project · Web App",
   title: "Life Dashboard",
   desc: "A personal productivity dashboard designed to help users organize daily activities and manage their time efficiently. The application combines a Pomodoro timer, daily task management, and customizable quick links in one dashboard.",
